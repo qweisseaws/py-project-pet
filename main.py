@@ -1,11 +1,10 @@
+import io
 import sqlite3
 import sys
-import io
-
 from io import BytesIO
+
 import requests
 from PIL import Image
-
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTableWidgetItem, QMessageBox
 
